@@ -24,6 +24,7 @@
 		FAA38C0C19034EC500E610B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA38C0B19034EC500E610B1 /* Images.xcassets */; };
 		FAA3B8CD19036F640015F503 /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAA3B8CC19036F640015F503 /* AppDelegateSpec.mm */; };
 		FAA3B8D11903777A0015F503 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA3B8D01903777A0015F503 /* ItemsViewController.m */; };
+		FAA3B8D419037B5E0015F503 /* ItemsViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAA3B8D319037B5E0015F503 /* ItemsViewControllerSpec.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		FAA3B8CC19036F640015F503 /* AppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateSpec.mm; sourceTree = "<group>"; };
 		FAA3B8CF1903777A0015F503 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
 		FAA3B8D01903777A0015F503 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		FAA3B8D319037B5E0015F503 /* ItemsViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ItemsViewControllerSpec.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		FA6EB04919034FCE0078DCD8 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
+				FAA3B8D219037B390015F503 /* Controllers */,
 				FA6EB05119034FCE0078DCD8 /* Rakefile */,
 				FA6EB04A19034FCE0078DCD8 /* Supporting Files */,
 				FAA3B8CC19036F640015F503 /* AppDelegateSpec.mm */,
@@ -167,6 +170,14 @@
 			children = (
 				FAA3B8CF1903777A0015F503 /* ItemsViewController.h */,
 				FAA3B8D01903777A0015F503 /* ItemsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FAA3B8D219037B390015F503 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3B8D319037B5E0015F503 /* ItemsViewControllerSpec.mm */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -341,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA3B8D419037B5E0015F503 /* ItemsViewControllerSpec.mm in Sources */,
 				FAA3B8CD19036F640015F503 /* AppDelegateSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

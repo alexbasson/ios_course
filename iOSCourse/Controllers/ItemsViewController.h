@@ -2,4 +2,6 @@
 
 @interface ItemsViewController : UIViewController
 
+@property (nonatomic, strong, readonly) UITableView *tableView;
+
 @end
