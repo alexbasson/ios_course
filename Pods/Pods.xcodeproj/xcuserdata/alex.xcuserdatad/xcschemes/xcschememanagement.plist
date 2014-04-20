@@ -9,7 +9,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Specs-PivotalCoreKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Specs.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-iOSCourse-PivotalCoreKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-iOSCourse.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>31E0C7B72D0744838AFAEAD3</key>
+		<key>0018A3ADD75C4F95A6C4594D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C56DFDDD393B40CB887395C9</key>
+		<key>550256FEDEE4448CAD984A44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5FD7B378411D4F03B9BB0367</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>851B518D17E9424796CF45D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF8A994E95D242EEB0F6F7CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
