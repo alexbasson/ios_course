@@ -15,10 +15,10 @@ Installation
 ```
     $ gem install cocoapods
 ```
-* Fork (don't clone) this project, then clone your fork.
+* Fork (don't clone) this project, then clone your fork. Checkout the tag labeled `start-here`.
 * From your project's root directory, run this command to install the cocoapod dependencies:
 ```
     $ pod install
 ```
 
-That's it! You're ready to go.
+That's it! You're ready to get started.
