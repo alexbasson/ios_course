@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C9002D59-5669-4F0E-8564-49188AD32B9C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOSCourse</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F57436C8-180C-4A0D-A902-0BAEA841E273</key>
+		<string>ssh://github.com/alexbasson/ios_course.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOSCourse.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F57436C8-180C-4A0D-A902-0BAEA841E273</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/alexbasson/ios_course.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F57436C8-180C-4A0D-A902-0BAEA841E273</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F57436C8-180C-4A0D-A902-0BAEA841E273</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios_course</string>
+		</dict>
+	</array>
+</dict>
+</plist>

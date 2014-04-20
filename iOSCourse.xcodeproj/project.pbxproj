@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77D0D5CD4C764273B509CB81 /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE20EEB512A449DAAB23CC8 /* libPods-Specs.a */; };
 		FA6EB04519034FCE0078DCD8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6EB04419034FCE0078DCD8 /* SenTestingKit.framework */; };
 		FA6EB04619034FCE0078DCD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA38BFB19034EC500E610B1 /* CoreGraphics.framework */; };
 		FA6EB04719034FCE0078DCD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA38BFD19034EC500E610B1 /* UIKit.framework */; };
 		FA6EB04819034FCE0078DCD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA38BF919034EC500E610B1 /* Foundation.framework */; };
 		FA6EB04E19034FCE0078DCD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA6EB04C19034FCE0078DCD8 /* InfoPlist.strings */; };
 		FA6EB05019034FCE0078DCD8 /* ExampleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA6EB04F19034FCE0078DCD8 /* ExampleSpec.mm */; };
-		FA6EB05319034FCE0078DCD8 /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6EB05219034FCE0078DCD8 /* Cedar-iOS.framework */; };
 		FAA38BFA19034EC500E610B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA38BF919034EC500E610B1 /* Foundation.framework */; };
 		FAA38BFC19034EC500E610B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA38BFB19034EC500E610B1 /* CoreGraphics.framework */; };
 		FAA38BFE19034EC500E610B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA38BFD19034EC500E610B1 /* UIKit.framework */; };
@@ -24,13 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BE20EEB512A449DAAB23CC8 /* libPods-Specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C431695F046D4514A3BE0B53 /* Pods-Specs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.xcconfig"; path = "Pods/Pods-Specs.xcconfig"; sourceTree = "<group>"; };
 		FA6EB04319034FCE0078DCD8 /* Specs.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6EB04419034FCE0078DCD8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		FA6EB04B19034FCE0078DCD8 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
 		FA6EB04D19034FCE0078DCD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA6EB04F19034FCE0078DCD8 /* ExampleSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleSpec.mm; sourceTree = "<group>"; };
 		FA6EB05119034FCE0078DCD8 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
-		FA6EB05219034FCE0078DCD8 /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
 		FA6EB05419034FCE0078DCD8 /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
 		FAA38BF619034EC500E610B1 /* iOSCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA38BF919034EC500E610B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,9 +54,9 @@
 			files = (
 				FA6EB04619034FCE0078DCD8 /* CoreGraphics.framework in Frameworks */,
 				FA6EB04719034FCE0078DCD8 /* UIKit.framework in Frameworks */,
-				FA6EB05319034FCE0078DCD8 /* Cedar-iOS.framework in Frameworks */,
 				FA6EB04519034FCE0078DCD8 /* SenTestingKit.framework in Frameworks */,
 				FA6EB04819034FCE0078DCD8 /* Foundation.framework in Frameworks */,
+				77D0D5CD4C764273B509CB81 /* libPods-Specs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +78,6 @@
 			children = (
 				FA6EB04F19034FCE0078DCD8 /* ExampleSpec.mm */,
 				FA6EB05119034FCE0078DCD8 /* Rakefile */,
-				FA6EB05219034FCE0078DCD8 /* Cedar-iOS.framework */,
 				FA6EB04A19034FCE0078DCD8 /* Supporting Files */,
 			);
 			path = Specs;
@@ -100,6 +100,7 @@
 				FA6EB04919034FCE0078DCD8 /* Specs */,
 				FAA38BF819034EC500E610B1 /* Frameworks */,
 				FAA38BF719034EC500E610B1 /* Products */,
+				C431695F046D4514A3BE0B53 /* Pods-Specs.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +121,7 @@
 				FAA38BFD19034EC500E610B1 /* UIKit.framework */,
 				FAA38C1219034EC500E610B1 /* XCTest.framework */,
 				FA6EB04419034FCE0078DCD8 /* SenTestingKit.framework */,
+				2BE20EEB512A449DAAB23CC8 /* libPods-Specs.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,10 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA6EB05719034FCE0078DCD8 /* Build configuration list for PBXNativeTarget "Specs" */;
 			buildPhases = (
+				AB5E163B5D7A4E31868E9AD7 /* Check Pods Manifest.lock */,
 				FA6EB03E19034FCE0078DCD8 /* Sources */,
 				FA6EB03F19034FCE0078DCD8 /* Frameworks */,
 				FA6EB04019034FCE0078DCD8 /* Resources */,
 				FA6EB04119034FCE0078DCD8 /* ShellScript */,
+				89BA56C2134B49B5945B5C23 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +236,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		89BA56C2134B49B5945B5C23 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Specs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB5E163B5D7A4E31868E9AD7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		FA6EB04119034FCE0078DCD8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,6 +323,7 @@
 /* Begin XCBuildConfiguration section */
 		FA6EB05519034FCE0078DCD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C431695F046D4514A3BE0B53 /* Pods-Specs.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSCourse.app/iOSCourse";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -317,6 +352,7 @@
 		};
 		FA6EB05619034FCE0078DCD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C431695F046D4514A3BE0B53 /* Pods-Specs.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSCourse.app/iOSCourse";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -445,6 +481,7 @@
 				FA6EB05619034FCE0078DCD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA38BF119034EC500E610B1 /* Build configuration list for PBXProject "iOSCourse" */ = {
 			isa = XCConfigurationList;
