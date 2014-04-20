@@ -23,6 +23,8 @@
 		FAA38C0619034EC500E610B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA38C0519034EC500E610B1 /* main.m */; };
 		FAA38C0A19034EC500E610B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA38C0919034EC500E610B1 /* AppDelegate.m */; };
 		FAA38C0C19034EC500E610B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA38C0B19034EC500E610B1 /* Images.xcassets */; };
+		FAA3B8CD19036F640015F503 /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAA3B8CC19036F640015F503 /* AppDelegateSpec.mm */; };
+		FAA3B8D11903777A0015F503 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA3B8D01903777A0015F503 /* ItemsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,9 @@
 		FAA38C0919034EC500E610B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FAA38C0B19034EC500E610B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FAA38C1219034EC500E610B1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FAA3B8CC19036F640015F503 /* AppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateSpec.mm; sourceTree = "<group>"; };
+		FAA3B8CF1903777A0015F503 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		FAA3B8D01903777A0015F503 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,7 @@
 				FA6EB04F19034FCE0078DCD8 /* ExampleSpec.mm */,
 				FA6EB05119034FCE0078DCD8 /* Rakefile */,
 				FA6EB04A19034FCE0078DCD8 /* Supporting Files */,
+				FAA3B8CC19036F640015F503 /* AppDelegateSpec.mm */,
 			);
 			path = Specs;
 			sourceTree = "<group>";
@@ -139,6 +145,7 @@
 		FAA38BFF19034EC500E610B1 /* iOSCourse */ = {
 			isa = PBXGroup;
 			children = (
+				FAA3B8CE190376860015F503 /* Controllers */,
 				FAA38C0819034EC500E610B1 /* AppDelegate.h */,
 				FAA38C0919034EC500E610B1 /* AppDelegate.m */,
 				FAA38C0B19034EC500E610B1 /* Images.xcassets */,
@@ -156,6 +163,15 @@
 				FAA38C0719034EC500E610B1 /* iOSCourse-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAA3B8CE190376860015F503 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3B8CF1903777A0015F503 /* ItemsViewController.h */,
+				FAA3B8D01903777A0015F503 /* ItemsViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6EB05019034FCE0078DCD8 /* ExampleSpec.mm in Sources */,
+				FAA3B8CD19036F640015F503 /* AppDelegateSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA3B8D11903777A0015F503 /* ItemsViewController.m in Sources */,
 				FAA38C0A19034EC500E610B1 /* AppDelegate.m in Sources */,
 				FAA38C0619034EC500E610B1 /* main.m in Sources */,
 			);
