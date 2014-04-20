@@ -15,7 +15,6 @@
 		FA6EB04719034FCE0078DCD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA38BFD19034EC500E610B1 /* UIKit.framework */; };
 		FA6EB04819034FCE0078DCD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA38BF919034EC500E610B1 /* Foundation.framework */; };
 		FA6EB04E19034FCE0078DCD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA6EB04C19034FCE0078DCD8 /* InfoPlist.strings */; };
-		FA6EB05019034FCE0078DCD8 /* ExampleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA6EB04F19034FCE0078DCD8 /* ExampleSpec.mm */; };
 		FAA38BFA19034EC500E610B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA38BF919034EC500E610B1 /* Foundation.framework */; };
 		FAA38BFC19034EC500E610B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA38BFB19034EC500E610B1 /* CoreGraphics.framework */; };
 		FAA38BFE19034EC500E610B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA38BFD19034EC500E610B1 /* UIKit.framework */; };
@@ -37,7 +36,6 @@
 		FA6EB04419034FCE0078DCD8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		FA6EB04B19034FCE0078DCD8 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
 		FA6EB04D19034FCE0078DCD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FA6EB04F19034FCE0078DCD8 /* ExampleSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleSpec.mm; sourceTree = "<group>"; };
 		FA6EB05119034FCE0078DCD8 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
 		FA6EB05419034FCE0078DCD8 /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
 		FAA38BF619034EC500E610B1 /* iOSCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,7 +86,6 @@
 		FA6EB04919034FCE0078DCD8 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
-				FA6EB04F19034FCE0078DCD8 /* ExampleSpec.mm */,
 				FA6EB05119034FCE0078DCD8 /* Rakefile */,
 				FA6EB04A19034FCE0078DCD8 /* Supporting Files */,
 				FAA3B8CC19036F640015F503 /* AppDelegateSpec.mm */,
@@ -344,7 +341,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA6EB05019034FCE0078DCD8 /* ExampleSpec.mm in Sources */,
 				FAA3B8CD19036F640015F503 /* AppDelegateSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
