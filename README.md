@@ -21,4 +21,4 @@ Installation
     $ pod install
 ```
 
-That's it! You're ready to get started.
+That's it! You're ready to get started. Go to [the wiki](https://github.com/alexbasson/ios_course/wiki) to begin the course.
